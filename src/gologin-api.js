@@ -7,7 +7,7 @@ const trafficLimitMessage =
   'You dont have free traffic to use the proxy. Please go to app https://app.gologin.com/ and buy some traffic if you want to use the proxy';
 
 export const getDefaultParams = () => ({
-  token: process.env.GOLOGIN_API_TOKEN,
+  token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2ODBjNTUzMTg5ZmUyYTY1MWNhMmVjZGQiLCJ0eXBlIjoiZGV2Iiwiand0aWQiOiI2ODBjNTU4NGNiZTA1YTE2MTFmNGIwYWYifQ.UOpPOIvDdP7fcSd0kTtj8d6JINZpfVOAs1bqMBJhuU0",
   profile_id: process.env.GOLOGIN_PROFILE_ID,
   executablePath: process.env.GOLOGIN_EXECUTABLE_PATH,
   autoUpdateBrowser: true,
