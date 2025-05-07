@@ -9,7 +9,7 @@ const gologin = GologinApi({
 async function main() {
   const { browser } = await gologin.launch({
     // pass profileId parameter if you want to run particular profile
-    // profileId: 'your profileId here',
+     profileId: '681a84a470f9dd69e7945f5d',
   });
 
   const page = await browser.newPage();
