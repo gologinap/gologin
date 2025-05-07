@@ -1,7 +1,7 @@
 // SDK will prepare the browser and will start it on your machine then you can control it with puppeteer
 import { GologinApi } from 'gologin';
 
-const token = process.env.GL_API_TOKEN || 'your dev token here';
+const token = process.env.GL_API_TOKEN || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2ODE5NjE4ZDBhOTQ4YmZkNzAzOTcwNjQiLCJ0eXBlIjoiZGV2Iiwiand0aWQiOiI2ODE5NjE5YmFmZTQzOWIyMzQyN2U4OTMifQ.mzUWT1IdpFo0Bk-EadlgJ03NZlJlWyt0UV8j5g2WeQ8';
 const gologin = GologinApi({
   token,
 });
